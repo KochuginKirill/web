@@ -1,9 +1,22 @@
-p {
-    color: red
-}
 html{
-    background-color:rosybrown;
+    background-color:#feffdf;
 }
 p, ul{
     font-family: 'Roboto', sans-serif;
+    color: #668ba4
+}
+h1, h3{
+    font-family: 'Roboto', sans-serif;
+    color: #668ba4
+}
+main{
+    width: 70%;
+    margin: 0;
+    padding: 20px 0;
+}
+li{
+    border: 3px solid #97cba9;
+}
+header{
+    text-shadow: 2px 2px 1px #97cba9
 }
