@@ -8,3 +8,5 @@ function send(){
     document.getElementById('result').value = "Привет, " + message
     }
 }
+
+
