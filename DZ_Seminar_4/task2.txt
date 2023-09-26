@@ -1,4 +1,4 @@
---create
+-- create
 CREATE TABLE DND_PLAYER(
     plID INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
@@ -6,10 +6,10 @@ CREATE TABLE DND_PLAYER(
 );
 
 -- insert
-INSERT INTO EMPLOYEE(01,'Artos', 'Warrior');
-INSERT INTO EMPLOYEE(02,'Partos', 'Rogue');
-INSERT INTO EMPLOYEE(03,'Aramis', 'Mage');
-INSERT INTO EMPLOYEE(04,'Dartanian', 'Cleric');
+INSERT INTO DND_PLAYER VALUES (01,'Artos', 'Warrior');
+INSERT INTO DND_PLAYER VALUES (02,'Partos', 'Rogue');
+INSERT INTO DND_PLAYER VALUES (03,'Aramis', 'Mage');
+INSERT INTO DND_PLAYER VALUES (04,'Dartanian', 'Cleric');
 
---fetch
-SELECT * FROM DND_PLAYER WHERE class = 'Mage'
+-- fetch
+SELECT * FROM DND_PLAYER WHERE class = 'Mage';
