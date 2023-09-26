@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<?php
+$job = [
+'job_name' => ['Delivery Club', 'Яндекс Еда', 'Mc Donalds','Pizza hutt'],
+'job_data' => ['2020-настоящее время', '2018-2020', '2016-2018','2010-2016'],
+'job_desc' => ['Невероятное число сложных проектов по развитию логистики', 'Развитие бренда, работа с клиентами', 'Контроль качества', 'Построение диаграм']
+]
+?>
+  <style>
+   div {
+    width: 70%;	height: 50%;
+    background: #e5eaf5;
+    outline: 2px solid #a28089;
+    border: 3px solid #a0d2eb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+   }
+  </style>
+
+<h1>Стив Джобс</h1>
+<h3>Опыт работы :</h3>
+<div>
+<p><i>Название Компании:</i></p>
+<p><?php echo $job['job_name'][0]; ?></p>
+<hr>
+<p><i>В какое время работал:</i></p>
+<p><?php echo $job['job_data'][0]; ?></p>
+<hr>
+<p><i>Деятельность:</i></p>
+<p><?php echo $job['job_desc'][0]; ?></p>
+</div>
+
+<div>
+<p><i>Название Компании:</i></p>
+<p><?php echo $job['job_name'][1]; ?></p>
+<hr>
+<p><i>В какое время работал:</i></p>
+<p><?php echo $job['job_data'][1]; ?></p>
+<hr>
+<p><i>Деятельность:</i></p>
+<p><?php echo $job['job_desc'][1]; ?></p>
+</div>
+
+<div>
+<p><i>Название Компании:</i></p>
+<p><?php echo $job['job_name'][2]; ?></p>
+<hr>
+<p><i>В какое время работал:</i></p>
+<p><?php echo $job['job_data'][2]; ?></p>
+<hr>
+<p><i>Деятельность:</i></p>
+<p><?php echo $job['job_desc'][2]; ?></p>
+</div>
+
+<div>
+<p><i>Название Компании:</i></p>
+<p><?php echo $job['job_name'][3]; ?></p>
+<hr>
+<p><i>В какое время работал:</i></p>
+<p><?php echo $job['job_data'][3]; ?></p>
+<hr>
+<p><i>Деятельность:</i></p>
+<p><?php echo $job['job_desc'][3]; ?></p>
+</div>
+
+
+</body>
+</html>
