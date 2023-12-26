@@ -1,0 +1,21 @@
+html{
+    background-color:#feffdf;
+}
+
+div,h1 {
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+body{
+    border: 3px solid #97cba9;
+    width: 30%;
+    text-align: center;
+}
