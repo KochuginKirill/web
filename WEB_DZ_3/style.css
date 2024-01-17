@@ -125,3 +125,7 @@
 .main__left_side{
     width: 560px;
 }
+
+.btn_main{
+    gap: 48px;
+}
