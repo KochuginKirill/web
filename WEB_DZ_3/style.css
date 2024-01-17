@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Inter;
+    src: url(Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.whole__page{
+    background: #FFF;
+}
+
+.header__style{
+    display: flex;
+    align-items: center;
+    gap: 460px;
+}
+
+.image__arrow{
+    width: 35px;
+    height: 40px;
+}
+
+.home__link{
+    color: #F25822;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu__links{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.GrowBe{
+    width: 86.33px;
+    height: 17.472px;
+}
+
+.main__h1{
+    color: #000;
+
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%
+}
+
+.main__p{
+    color: #888;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.btn_orange{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+}
+
+.link__watch_video{
+    color: #AAA;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.image__main{
+    width: 545px;
+    height: 375px;
+    align-content: flex-end;
+}
+
+.img_liva{
+    width: 134px;
+    height: 50px;
+}
+
+.img__other_footer{
+    width: 160px;
+    height: 50px;
+}
+
+.headerMain__style{
+    display: flex;
+    padding: 40px 373px 100px 373px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 84px;
+}
+
+.footer__modified{
+    display: flex;
+    width: 1920px;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.main__left_side{
+    width: 560px;
+}
