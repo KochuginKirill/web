@@ -3,19 +3,72 @@
     src: url(Fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(Fonts/gilroy-bold.ttf);
+}
+
 .whole__page{
     background: #FFF;
 }
 
 .header__style{
-    display: flex;
-    align-items: center;
-    gap: 460px;
+    display: grid;
+    grid-template-columns: 100px  533px;
+    gap: 550px;
 }
+
+[class^="link-"] {
+    display: grid;
+    place-items: left;
+}
+
+.headerMain__style{
+    display: flex;
+    padding: 40px 373px 100px 373px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 84px;
+}
+
+.main__style{
+    display: grid;
+    grid-template-columns: 600px 544px;
+    column-gap: 41px;
+}
+
+[class^="box-"] {
+    display: grid;
+    place-items: left;
+}
+
+.GrowBe__grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+}
+
+[class^="GrowBe-"] {
+    display: grid;
+    place-items: center;
+}
+
 
 .image__arrow{
     width: 35px;
     height: 40px;
+}
+
+.links__header_all{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 8px;
+}
+
+[class^="item-"] {
+    display: grid;
+    place-items: center;
 }
 
 .home__link{
@@ -36,11 +89,26 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+    gap: 200px;
 }
 
-.GrowBe{
-    width: 86.33px;
-    height: 17.472px;
+
+.Grow{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Be{
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .main__h1{
@@ -76,6 +144,10 @@
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+
 }
 
 .link__watch_video{
@@ -92,7 +164,6 @@
 .image__main{
     width: 545px;
     height: 375px;
-    align-content: flex-end;
 }
 
 .img_liva{
@@ -105,14 +176,6 @@
     height: 50px;
 }
 
-.headerMain__style{
-    display: flex;
-    padding: 40px 373px 100px 373px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 84px;
-}
-
 .footer__modified{
     display: flex;
     width: 1920px;
@@ -122,10 +185,12 @@
     gap: 48px;
 }
 
-.main__left_side{
+.item1{
     width: 560px;
 }
 
 .btn_main{
-    gap: 48px;
+    display: flex;
+    align-items: stretch;
+    gap: 72px;
 }
