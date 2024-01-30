@@ -16,7 +16,7 @@ a {
 }
 
 summary {
-  display: block;
+  display: flex;
 }
 
 summary::-webkit-details-marker {
@@ -306,7 +306,7 @@ summary::-webkit-details-marker {
   filter: brightness(0.5);
 }
 
-.product:hover .product__add {
+.product:hover .product__add{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -326,6 +326,11 @@ summary::-webkit-details-marker {
   flex-shrink: 0;
   fill: #F7E4E2;
   background: url(img/black_skirt_woman_background.svg), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.product__img_scpecial_background:hover{
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
 }
 
 .product__img_scpecial {
@@ -353,7 +358,6 @@ summary::-webkit-details-marker {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  gap: 11px;
   color: #FFFFFF;
 }
 
@@ -407,6 +411,28 @@ summary::-webkit-details-marker {
   font-size: 16px;
   line-height: 19px;
   color: #F16D7F;
+}
+
+.button__browse{
+  display: flex;
+  width: 212px;
+  height: 48px;
+  color: #FF6A6A;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(50% - 106px);
+  border-color: #FF6A6A;
+  fill: #FFFFFF;
+  margin-bottom: 70px;
+}
+
+.button__browse_text{
+  color: #F26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .advantages {
@@ -712,8 +738,6 @@ summary::-webkit-details-marker {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 47px;
   height: 47px;
