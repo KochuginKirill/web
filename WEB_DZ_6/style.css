@@ -313,7 +313,26 @@ summary::-webkit-details-marker {
 }
 
 .product__img {
-  width: 100%;
+  width: 360px;
+  height: 420px;
+  flex-shrink: 0;
+}
+
+.product__img_scpecial_background{
+  display: flex;
+  justify-content: center;
+  width: 360px;
+  height: 420px;
+  flex-shrink: 0;
+  fill: #F7E4E2;
+  background: url(img/black_skirt_woman_background.svg), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.product__img_scpecial {
+  width: 141.943px;
+  height: 400px;
+  flex-shrink: 0;
+  background: url(img/black_skirt_woman_background.svg), lightgray 0px 0px / 100% 100% no-repeat;
 }
 
 .product__add {
