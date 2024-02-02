@@ -170,13 +170,16 @@ summary::-webkit-details-marker {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background: #F1E4E6;
   padding-left: calc(50% - 800px);
   padding-right: calc(50% - 800px);
 }
 
 .promo__img {
-  width: 50%;
+  flex-shrink: 1;
 }
 
 .promo__info {
@@ -203,6 +206,7 @@ summary::-webkit-details-marker {
 
 .promo__content {
   padding-left: 64px;
+  padding-bottom: 64px;
 }
 
 .sale {
