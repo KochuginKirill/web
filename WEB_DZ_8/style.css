@@ -784,3 +784,138 @@ summary::-webkit-details-marker {
   -ms-flex-align: center;
   align-items: center;
 }
+
+.footer__main_panel {
+  background: url(img/footer_backgroun.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30%;
+  justify-content: center;
+  padding-top: 64px;
+  padding-bottom: 96px;
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.footer__element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 359px;
+}
+
+.footer__element_left_text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer__element_right{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__element_right_text_top{
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer__element_right_text_bottom{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer__element_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.footer__element_button{
+  background: #F16D7F;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #FFFFFF;
+  width: 80px;
+  height: 49px;
+  top: 243px;
+  left: 1173px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.footer__element_input{
+  background: #E1E1E1;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 200px;
+  height: 47px;
+  top: 243px;
+  left: 917px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer__bottom{
+  background: #222224;
+  height: 79px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50%;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.footer__bottom_paragraph{
+  color: #FBFBFB;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer__bottom_icons{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+
